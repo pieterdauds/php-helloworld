@@ -5,8 +5,9 @@
 </head>
 
 <body>
-
-<?php echo "Hello World!"; ?>
+<center>
+<?php echo "<h2>Cloud Admin - NodeJS V0</h2>"; ?>
+<?php echo "<p><b>Hello World ITX!</b></p>"; ?>
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 
 <?php $links = [];
@@ -23,6 +24,7 @@
 
 }
 ?>
-
+  
+</center>
 </body>
 </html>
