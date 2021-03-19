@@ -21,12 +21,6 @@
     }
   }
 
-  if($links) {
-    foreach($links as $link) {
-      echo $link["name"]; ?>  listening on port <?php echo $link["port"]."/".$link["proto"]; ?> available at <?php echo $link["value"]; ?><br /><?php
-    }
-  }
-
 }
 ?>
 
