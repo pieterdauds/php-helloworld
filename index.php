@@ -6,7 +6,7 @@
 
 <body>
 <center>
-<?php echo "<h2>Cloud Admin - NodeJS From Images</h2>"; ?>
+<?php echo "<h2>Cloud Admin - NodeJS V1</h2>"; ?>
 <?php echo "<p><b>Welcome To OpenShift COP!</b></p>"; ?>
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 
